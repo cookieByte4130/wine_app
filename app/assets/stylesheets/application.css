@@ -1,0 +1,63 @@
+/* General styling */
+/* Primary color: #611414;*/
+
+
+* {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: #BECFB8;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.title {
+  width: 90%;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #611414;
+  color: #fff;
+  text-align: center;
+  margin: 1rem auto;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+/* splash */
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.splash img {
+  height: 400px;
+}
+
+/* profile */
+.profile .user {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #611414;
+}
+
+.user img {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid #611414;
+  border-radius: 50%;
+  margin: 1rem auto 0;
+}
+
+.user p {
+  margin: 1rem .5rem;
+}

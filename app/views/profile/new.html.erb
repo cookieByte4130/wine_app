@@ -1,0 +1,19 @@
+<h1>Create Profile</h1>
+
+<%= form_with model: @user do |user| %>
+  <div>
+    <%= form.label :first_name %><br>
+    <%= form.text_field :first_name %><br>
+  </div>
+  <div>
+    <%= form.label :last_name %><br>
+    <%= form.text_field :last_name %><br>
+  </div>
+  <div>
+    <%= form.label :dob %><br>
+    <%= form.date_select :dob %><br>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
